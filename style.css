@@ -106,9 +106,7 @@ img {
 
 }
 @media screen and (max-width:768px) and (min-width:421px){
-  body{
-    background-color: yellow;
-  }
+  
   .row{
     width: 100%;
   }
@@ -116,9 +114,24 @@ img {
   width: calc(100% / 2 - 20px);
   margin-left: 20px;
   }
+  img{
+    height: calc(70vw / 2);
+  }
   #lezioni img{
     height: calc(50vw / 2);
   }
+  #steps .row .left,
+  #steps .row .right,
+  #steps .row .central {
+  width: calc(50% - 10px);
+}
+#steps .row .central{
+  margin-left: 20px;
+}
+#steps .row .right{
+  width: 100%;
+  margin-top: 20px
+}
 
 }
 
