@@ -84,7 +84,7 @@ img {
 }
 #lezioni .right img{
   width: 80%
-};
+}
   img{
     width: 60%;
     height: auto;
@@ -109,5 +109,16 @@ img {
   body{
     background-color: yellow;
   }
+  .row{
+    width: 100%;
+  }
+  #lezioni .row .right {
+  width: calc(100% / 2 - 20px);
+  margin-left: 20px;
+  }
+  #lezioni img{
+    height: calc(50vw / 2);
+  }
+
 }
 
