@@ -73,15 +73,18 @@ img {
 }
 
 @media screen and (max-width:420px) {
-
   .row{
     width: 100%;
+    margin-top: 60px;
   }
   #lezioni .row .left,
   #lezioni .row .right {
   width: 100%;
   margin-bottom: 20px;
 }
+#lezioni .right img{
+  width: 80%
+};
   img{
     width: 60%;
     height: auto;
@@ -95,8 +98,16 @@ img {
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
-  margin:40px
+  margin:40px auto;
+  width: 100%;
+ 
   
 }
 
 }
+@media screen and (max-width:768px) and (min-width:421px){
+  body{
+    background-color: yellow;
+  }
+}
+
